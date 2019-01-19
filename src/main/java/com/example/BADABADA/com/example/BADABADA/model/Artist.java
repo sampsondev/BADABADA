@@ -21,4 +21,8 @@ public class Artist {
     private LocalDate dob;
     @OneToMany(mappedBy = "artist", cascade = CascadeType.ALL)
     private List<Song> songs;
+
+    public List<Song> getSongs() {
+        return songs;
+    }
 }
