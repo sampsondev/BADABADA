@@ -26,3 +26,9 @@ function turnToRed(){
     document.body.style.textAlign = "center";
     document.body.style.width="900px"
 }
+
+function format() {
+    console.log('input is ' + document.getElementById('theInput').value)
+    document.getElementById('thecontent').textContent = document.getElementById('theInput').value
+    turnToRed();
+}

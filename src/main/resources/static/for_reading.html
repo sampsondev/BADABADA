@@ -5,7 +5,6 @@
   <script src="makeRed.js" />
     <script type="text/javascript" >
 
-    window.onload = turnToRed();
     </script>
     <title>Last letter should be in color read</title>
     <style>
@@ -16,9 +15,11 @@
     </style>
 </head>
 
-<body onload="turnToRed()"  >
+<body   >
 
-<div id="thecontent"><p style="font-size: 36px;">  Uncle Bob gave Cassie a bottle full of milk. Then Cassie sat down next to the calf. The calf began to drink the milk, "Look, Marley!" Cassie said, "he likes it!"
-</div>
+<div id="thecontent"><p style="font-size: 36px;"></div>
+<textarea id="theInput" ></textarea>
+<br>
+<button onclick="format()">Format</button>
 </body>
 </html>
